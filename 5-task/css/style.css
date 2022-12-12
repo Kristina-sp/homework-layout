@@ -79,6 +79,25 @@ ul{
   flex-grow: 3;
   align-self: flex-end;
 }
+.section-services-list{
+  margin-top: 20px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+}
+.section-services-item{
+  flex: 1 1 40%;
+  
+}
+.section-services-picture{
+  max-width: 100%;
+}
+
+
+
+
 
 
 
