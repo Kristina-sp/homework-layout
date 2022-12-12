@@ -61,20 +61,23 @@ ul{
 }
 .section-special-list{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 24px;
-  
+  height: 540px;
+}
+.section-special-item{
+  width: 573px;
 }
 .section-special-list li:nth-child(1){
-  background-color: blanchedalmond;
+  height: 258px;
 }
 .section-special-list li:nth-child(2){
-  background-color: coral;
+  height: 258px;
 }
 .section-special-list li:nth-child(3){
-  background-color: aqua;
   flex-grow: 3;
-
+  align-self: flex-end;
 }
 
 
