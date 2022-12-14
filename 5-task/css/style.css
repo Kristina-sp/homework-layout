@@ -10,6 +10,7 @@ ul{
   margin: 0;
   padding: 0;
 }
+
 .container{
   max-width: 1220px;
   margin-right: auto;
@@ -29,6 +30,7 @@ ul{
 }
 .header-top{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -41,11 +43,13 @@ ul{
 }
 .nav{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   flex: 1 33.33%;
 }
 .nav-list{
   display: flex;
+  flex-wrap: wrap;
   padding-left: 45px;
 }
 .nav-item:not(:last-child){
@@ -61,31 +65,78 @@ ul{
 }
 .section-special-list{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+
+
+}
+.special-item-block{
+  display: flex;
   flex-direction: column;
   gap: 24px;
-  
+  margin-right: 100px;
 }
-.section-special-list li:nth-child(1){
-  background-color: blanchedalmond;
-}
-.section-special-list li:nth-child(2){
-  background-color: coral;
-}
-.section-special-list li:nth-child(3){
-  background-color: aqua;
-  flex-grow: 3;
 
+/* section-aboutUs */
+
+.section-aboutUs{
+  padding-bottom: 70px;
 }
 
 
+/* section-services */
+.section-services{
+  padding-bottom: 70px;
+}
+.section-services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.section-services-item {
+  flex: 0 1 50%;
+  flex-basis: 573px;
+}
+.section-services-picture{
+  width: 100%;
+}
+
+/* section-advantage */
+.section-advantage{
+  padding-bottom: 70px;
+}
+.section-advantage-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-advantage-item {
+  flex: 0 1 25%;
+}
+
+/* section-accommodation */
+.section-accommodation{
+  padding-bottom: 70px;
+}
+.section-accommodation-list {
+  display: flex;
+  flex-wrap: wrap;
 
 
+}
+.section-accommodation-item {
+  flex: 1 1 30%;
+  margin-right: 24px;
+
+}
+ul li:nth-child(3n) {
+	margin-right: 0;
+}
 
 
-
-
-
-
+.section-accommodation-img {
+  width: 100%;
+}
 
 
 
