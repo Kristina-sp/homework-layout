@@ -10,6 +10,7 @@ ul{
   margin: 0;
   padding: 0;
 }
+
 .container{
   max-width: 1220px;
   margin-right: auto;
@@ -57,6 +58,7 @@ ul{
 .nav-btn{
   margin-left: auto;
 }
+
 /* Section-Special */
 .section-special{
   padding: 70px 0px;
@@ -66,26 +68,52 @@ ul{
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
+
+
 }
 .special-item-block{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   gap: 24px;
+  margin-right: 100px;
 }
-.section-special-list li:nth-child(1){
-  background-color: blanchedalmond;
+
+/* section-aboutUs */
+
+.section-aboutUs{
+  padding-bottom: 70px;
 }
-.section-special-list li:nth-child(2){
-  background-color: coral;
+
+
+/* section-services */
+.section-services{
+  padding-bottom: 70px;
 }
-.section-special-list li:nth-child(3){
-  background-color: aqua;
-  flex-grow: 3;
+.section-services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.section-services-item {
+  flex: 0 1 50%;
+  flex-basis: 573px;
 }
 .section-services-picture{
-  max-width: 100%;
+  width: 100%;
 }
+
+/* section-advantage */
+.section-advantage{
+  padding-bottom: 70px;
+}
+.section-advantage-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-advantage-item {
+  flex: 0 1 25%;
+}
+
 /* section-accommodation */
 .section-accommodation{
   padding-bottom: 70px;
@@ -93,14 +121,23 @@ ul{
 .section-accommodation-list {
   display: flex;
   flex-wrap: wrap;
+
+
 }
 .section-accommodation-item {
   flex: 1 1 30%;
   margin-right: 24px;
+
 }
 ul li:nth-child(3n) {
 	margin-right: 0;
 }
+
+
 .section-accommodation-img {
   width: 100%;
 }
+
+
+
+
