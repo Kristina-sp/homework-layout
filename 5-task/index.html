@@ -391,6 +391,64 @@
                 </ul>
             </div>
         </section>
+        <section class="section-form">
+          <div class="container form-container">
+            <h2 class="section-heading form-title">Хочу тур</h2>
+            <form action="https://jsonplaceholder.typicode.com/posts" class="form" autocomplete method="post">
+              <label class="label" for="sity">Город вылета</label>
+              <!-- <input type="text" id="sity" class="input" name="sityOutOf"> -->
+              <select name="sity">
+                <option >Cанкт-Петербург</option>
+                <option>Москва</option>
+              </select>
+              <label class="label" for="country">Страна</label>
+              <select name="country">
+                <option >Австралия</option>
+                <option>Турция</option>
+              </select>
+              <label class="label" for="date">Дата прибытия</label>
+              <input name="date" type="date" id="date" class="input" value="2023-01-06" min="2023-01-01" max="2030-12-31">
+              <label for="night" class="label">Ночей</label>
+              <input name="night" type="number" id="night" class="input" value="6" min="6" max="21">
+              <label for="tourists" class="label">Туристы</label>
+              <input name="tourists" type="number" id="tourists" class="input" min="1" max="21" required>
+              <button type="submit" class="_btn">Найти</button>
+            </form>
+          </div>
+        </section>
+        <section class="section-contacts">
+          <div class="container">
+            <h2 class="section-heading">Контакты</h2>
+            <div class="section-contacts-box">
+              <div class="section-contacts-content">
+                <ul class="section-contacts-list">
+                  <li class="section-contacts-item">
+                    <p class="section-contacts-title">Адрес</p>
+                    <p class="section-contacts-description">Москва, улица Юности, дом 5 строение 4, офис 2</p>
+                  </li>
+                  <li class="section-contacts-item">
+                    <p class="section-contacts-title">Телефоны</p>
+                    <p class="section-contacts-description">+7 499 535-64-34</p>
+                    <p class="section-contacts-description">+7 495 005-05-44</p>
+                  </li>
+                  <li class="section-contacts-item">
+                    <p class="section-contacts-title">Email</p>
+                    <p class="section-contacts-description">lg.oona@mail.ru</p>
+                    <p class="section-contacts-description">по вопросам бронирования</p>
+                    <p class="section-contacts-description">hotels.ln@mail.ru</p>
+                    <p class="section-contacts-description">по вопросам сотрудничества</p>
+                  </li>
+                  <li class="section-contacts-item">
+                    <p class="section-contacts-title">График</p>
+                    <p class="section-contacts-description">Понедельник-пятница, с 10:00 до 19:00</p>
+                  </li>
+                </ul>
+                <button class="_btn">Построить маршрут</button>
+              </div>
+              <img src="" alt="" class="section-contacts-img">
+            </div>
+          </div>
+        </section>
     </main>
 </body>
 
